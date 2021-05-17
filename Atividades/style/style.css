@@ -1,0 +1,27 @@
+div.cabecalho{
+    background-color: red;
+    width: 1689px;
+    height: 195px;
+}
+div.centro{
+    background-color: green;
+    height: 450px;
+}
+div.ladoEsquerdo{
+    background-color: blue;
+    float: left;
+    height: 450px;
+    width: 250px;
+}
+div.ladoDireito{
+    background-color: magenta;
+    float: right;
+    height: 450px;
+    width: 250px;
+}
+div.rodape{
+    background-color: lightslategrey;
+    width: 1689px;
+    height: 145px;
+    color: white;
+}
