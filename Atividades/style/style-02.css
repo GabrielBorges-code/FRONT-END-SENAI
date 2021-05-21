@@ -11,7 +11,6 @@ div.conteudo{
 }
 
 div.menu{
-   
     background-color: #121317;
     height: 80px;
     padding: 10px;
@@ -20,8 +19,6 @@ div.menu{
 
 div.menu ul li{
     display: inline;
-    
-    
 
 }
 div.menu ul li a {
