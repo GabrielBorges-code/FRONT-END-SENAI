@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(20, 20, 20);
+    overflow: hidden;
+    width: 100%;
+}
+ul.slider{
+    list-style-type: none;
+    margin: 10px 2px;
+    padding: 0;
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+}
+ul.slider{
+	--total-items: 0;
+	width: calc(var(--total-items) * 100%);
+	
+}
+
+div.logo img{
+    position: fixed;
+    width: 340px;
+}
+
+button{
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+span.button  {
+    position: fixed;
+   
+}
+
+button {
+    border-radius: 12px;
+    width: 40px;
+    outline: none;
+    cursor:pointer;
+
+}
+
+button:hover, .active {
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: rgba(229, 9, 20, 0.87);
+    
+}
+
+
