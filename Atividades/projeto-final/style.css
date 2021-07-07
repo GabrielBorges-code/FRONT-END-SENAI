@@ -1,0 +1,114 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+    /* cores usadas no site */
+
+    /* botão */
+     /* rgb(60, 181, 236); */
+
+    /* fonte azul */
+     /* rgb(61, 181, 234); */
+
+    /* background branco */
+     /* rgb(255, 255, 255); */
+
+    /* background azul médio */
+     /* rgb(49, 140, 184); */
+
+    /* background azul forte */
+     /* rgb(34, 78, 107);  */
+
+    /* background 2 cinza claro*/
+     /* rgb(242, 243, 247); */
+
+    /* icone background cinza*/
+     /* rgb(209, 209, 209); */
+
+
+}
+
+div.cabecalho{
+    height: 90px;
+}
+
+a.titulo{
+    text-decoration: none;
+ 
+}
+
+a.titulo:hover{
+    color: rgb(60, 181, 236);
+
+
+}
+
+
+div.menu{
+    float: right;
+    margin-right: 15%;
+
+}
+
+div.icone{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(60, 181, 236);
+    margin-left: 15%;
+
+}
+
+
+.icone, .bitcoin, .ethereum, .litecoin, img {
+    width: 75px;
+
+}
+
+.bitcoin, .ethereum, .litecoin {
+    float: left;
+}
+
+#bitcoin, #ethereum, #litecoin{
+    margin-left: 3%;
+}
+
+div.menu ul{
+    list-style: none;
+    display: flex;
+
+}
+  
+/* div.menu li{
+    height: 35px;
+    
+} */
+
+div.menu ul li{
+    display: inline;
+   
+}
+
+div.menu ul li a {
+    text-decoration: none;
+    margin: 20px;
+   
+   
+}
+
+div.menu ul li:hover{
+    border-radius: 3px;
+    background-color: rgb(60, 181, 236);
+    
+}
+
+div.menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+div.inicio{
+    background-color: rgb(242, 243, 247);
+    height: 320px;
+}
+
