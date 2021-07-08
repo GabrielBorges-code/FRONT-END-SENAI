@@ -1,6 +1,9 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(255, 255, 255);
+
+    /* font-family: 'Cedarville Cursive', cursive; */
     
     /* cores usadas no site */
 
@@ -27,88 +30,285 @@ body{
 
 
 }
+a{
+    text-decoration:none;
+    color:rgb(61, 181, 234)
+}
+/* cabeçalho */
+.cabecalho{
+    height: 80px;
+}
 
-div.cabecalho{
+/* .cabecalhoFixo{
     height: 90px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    top: 0%;
+    width: 100%;
+
+
+} */
+
+/* .icone {
+    margin-left: 15%;
+    margin-right: 22%;
+
 }
 
-a.titulo{
-    text-decoration: none;
- 
-}
-
-a.titulo:hover{
-    color: rgb(60, 181, 236);
-
-
-}
-
-
-div.menu{
-    float: right;
+ .menu {
     margin-right: 15%;
+    margin-left: 25%; */
 
-}
 
-div.icone{
+
+.icone{
     float: left;
-    font-size: 25px;
     font-weight: bold;
-    color: rgb(60, 181, 236);
     margin-left: 15%;
 
 }
 
-
-.icone, .bitcoin, .ethereum, .litecoin, img {
-    width: 75px;
-
-}
-
-.bitcoin, .ethereum, .litecoin {
-    float: left;
-}
-
-#bitcoin, #ethereum, #litecoin{
-    margin-left: 3%;
-}
-
-div.menu ul{
-    list-style: none;
-    display: flex;
-
-}
-  
-/* div.menu li{
-    height: 35px;
+.menu{
+    float: right;
+    margin-right: 15%;
     
-} */
+} 
 
-div.menu ul li{
+
+.titulo{
+    text-decoration: none;
+ 
+}
+
+.titulo:hover{
+    color: rgb(60, 181, 236);
+
+}
+
+
+.menu li{
+    font-size: 25px;
+
+}
+
+.menu ul li{
     display: inline;
    
 }
 
-div.menu ul li a {
+.menu ul li a {
     text-decoration: none;
     margin: 20px;
    
    
 }
 
-div.menu ul li:hover{
+.menu ul li:hover {
     border-radius: 3px;
     background-color: rgb(60, 181, 236);
+    /* color: rgb(255, 255, 255); */
     
 }
 
-div.menu ul li a:hover{
+.menu ul li:hover a{
+    border-radius: 3px;
+    background-color: rgb(60, 181, 236);
     color: rgb(255, 255, 255);
     
 }
 
-div.inicio{
-    background-color: rgb(242, 243, 247);
-    height: 320px;
+.menu ul{
+    list-style: none;
+    display: flex;
+
 }
+  
+/* .menu li{
+    height: 35px;
+    
+} */
+
+/* inicio */
+.inicio{
+    background-color: rgb(242, 243, 247);
+    height: 340px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
+
+.imgIcones{
+    width: 75px;
+    height: 75px;
+}
+
+.bitcoin, .ethereum, .litecoin {
+    float: left;
+}
+
+#bitcoin, #ethereum, #litecoin, p{
+    font-size: 18px;
+}
+
+.bitcoin {
+    margin-left: 1%;
+    
+}
+
+
+.ethereum{
+    margin-left: 7%;
+
+}
+
+.litecoin {
+    margin-left: 14%;
+    
+}
+
+.texto{
+    margin-left: 53%;
+    margin-top: -18%;
+    
+}
+#texto{
+    font-weight: bold;
+    font-size: 60px;
+    color:rgb(61, 181, 234);
+
+}
+
+#cripto{
+    color: #f1af09;
+}
+#bitcoin{ 
+    margin-left: 4%;
+    /* margin-top: 10%; */
+}
+#ethereum{
+    margin-left: 7%;
+
+} 
+#litecoin{
+    margin-left: 11%;
+
+}
+
+/* sobre */
+.sobre{
+    background-color: rgb(209, 209, 209);
+    height: 340px;
+
+}
+
+.imgServidor{
+    width: 30%;
+}
+
+/* servicos */
+.servicos{
+    background-color: rgb(49, 140, 184);
+    height: 660px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+textarea{
+    border-radius: 7px;
+    width: 318px;
+    height: 170px;
+    outline: none;
+
+}
+
+input.btn {
+    border: none;
+    color:rgb(61, 181, 234);
+    font-weight: bold;
+    width: 22%;
+    height: 30px;
+    align-items: center;
+    border-radius: 7px;
+    background-color:  rgb(255, 255, 255); 
+
+    cursor:pointer;
+    box-shadow: none;
+}
+
+input.btn:hover, .active {
+    color:rgb(255, 255, 255);
+    outline: none;
+    transition-duration: 0.5s;
+    background-color: rgb(60, 181, 236);
+    /* background-color: rgb(34, 78, 107);  */
+    
+}
+
+.tituloH1{
+    text-align: center;
+
+}
+
+input.entrada{
+    border-radius: 7px;
+    width: 318px;
+    height: 27px;
+    outline: none;
+
+}
+
+/* curso */
+
+.curso{
+    background-color:  rgb(34, 78, 107);
+    height: 340px;
+
+}
+
+/* contato */
+.contato{
+    background-color: rgb(242, 243, 247);
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Cedarville Cursive', cursive; */
+
+
+}
+
+/* div.linkedin{
+    height: 75px;
+} */
+
+.linkedin, .github{
+    margin-top: 9%;
+}
+
+.github{
+    position:relative;
+}
+.linkedin:hover, .github:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.linkedin{
+    margin-right: 2%;
+}
+
+.github{
+    margin-left: 2%;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 2%;
+}
+
+
+
 
