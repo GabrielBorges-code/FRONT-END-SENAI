@@ -3,64 +3,17 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(255, 255, 255);
 
-    /* font-family: 'Cedarville Cursive', cursive; */
-    
-    /* cores usadas no site */
-
-    /* botão */
-     /* rgb(60, 181, 236); */
-
-    /* fonte azul */
-     /* rgb(61, 181, 234); */
-
-    /* background branco */
-     /* rgb(255, 255, 255); */
-
-    /* background azul médio */
-     /* rgb(49, 140, 184); */
-
-    /* background azul forte */
-     /* rgb(34, 78, 107);  */
-
-    /* background 2 cinza claro*/
-     /* rgb(242, 243, 247); */
-
-    /* icone background cinza*/
-     /* rgb(209, 209, 209); */
-
-
 }
+
 a{
     text-decoration:none;
     color:rgb(61, 181, 234)
 }
+
 /* cabeçalho */
 .cabecalho{
     height: 80px;
 }
-
-/* .cabecalhoFixo{
-    height: 90px;
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    top: 0%;
-    width: 100%;
-
-
-} */
-
-/* .icone {
-    margin-left: 15%;
-    margin-right: 22%;
-
-}
-
- .menu {
-    margin-right: 15%;
-    margin-left: 25%; */
-
-
 
 .icone{
     float: left;
@@ -107,7 +60,6 @@ a{
 .menu ul li:hover {
     border-radius: 3px;
     background-color: rgb(60, 181, 236);
-    /* color: rgb(255, 255, 255); */
     
 }
 
@@ -124,11 +76,6 @@ a{
 
 }
   
-/* .menu li{
-    height: 35px;
-    
-} */
-
 /* inicio */
 .inicio{
     background-color: rgb(242, 243, 247);
@@ -138,26 +85,29 @@ a{
 .icone{
     width: 50px;
     height: 50px;
+
 }
 
 .imgIcones{
     width: 75px;
     height: 75px;
+
 }
 
 .bitcoin, .ethereum, .litecoin {
     float: left;
+
 }
 
 #bitcoin, #ethereum, #litecoin, p{
     font-size: 18px;
+
 }
 
 .bitcoin {
     margin-left: 1%;
     
 }
-
 
 .ethereum{
     margin-left: 7%;
@@ -186,8 +136,9 @@ a{
 }
 #bitcoin{ 
     margin-left: 4%;
-    /* margin-top: 10%; */
+
 }
+
 #ethereum{
     margin-left: 7%;
 
@@ -200,16 +151,14 @@ a{
 /* sobre */
 .sobre{
     background-color: rgb(255, 255, 255);
-    /* background-color: rgb(209, 209, 209); */
     height: 340px;
     display: flex;
     text-align: justify;
-}
 
+}
 
 .textoSobre{
     margin-left: 1%;
-    /* margin-right: 2%;  */
     margin-top: 3%;
     
 }
@@ -240,8 +189,9 @@ a{
     padding: 15px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    /* display: flex; */
+
 }
+
 .imgContato{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
