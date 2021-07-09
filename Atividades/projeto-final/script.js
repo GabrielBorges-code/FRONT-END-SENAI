@@ -8,17 +8,6 @@
 // 	}, 500);
 // });
 
-// var teste = "https://www.mercadobitcoin.net/api/BTC/ticker/";
-
-// console.log(teste);
-
-// $.get(URL,callback);
-
-// var xhttp = new XMLHttpRequest();
-
-// xhttp.open("GET", "https://www.mercadobitcoin.net/api/BTC/ticker/");
-
-// console.log(xhttp);
 
 function fazerGet(url){
     let request = new XMLHttpRequest();
@@ -35,22 +24,20 @@ function main(){
     data1 = fazerGet("https://www.mercadobitcoin.net/api/ETH/ticker/");
     ethereum = JSON.parse(data1);
 
-
     data2 = fazerGet("https://www.mercadobitcoin.net/api/LTC/ticker/");
     litecoin = JSON.parse(data2);
     
-    valor_bitcoin = bitcoin.ticker.high;
-    valor_ethereum = ethereum.ticker.high;
-    valor_litecoin = litecoin.ticker.high;
+    valor_bitcoin = bitcoin.ticker.last;
+    valor_ethereum = ethereum.ticker.last;
+    valor_litecoin = litecoin.ticker.last;
 
     document.querySelector('p#bitcoin').innerHTML = "<p id='bitcoin'> R$ " + parseFloat(valor_bitcoin).toFixed(2) + "</p>"
     document.querySelector('p#ethereum').innerHTML = "<p id='ethereum'> R$ " + parseFloat(valor_ethereum).toFixed(2)  + "</p>"
     document.querySelector('p#litecoin').innerHTML = "<p id='litecoin'> R$ " + parseFloat(valor_litecoin).toFixed(2)  + "</p>"
 
     // console.log(bitcoin.ticker);
+    
 }
 
 
 main();
-
-

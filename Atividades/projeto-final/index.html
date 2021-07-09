@@ -30,9 +30,9 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Serviços</a></li>
                 <li><a href="#curso">Curso</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redeSocial">redeSocial</a></li>
             </ul>
 
         </div>
@@ -49,14 +49,14 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#curso">Curso</a></li>
+                <li><a href="#curso">Cursos</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><a href="#redeSocial">Redes Sociais</a></li>
             </ul>
 
         </div>
     </div>
-
+ 
     <div class="inicio" id="inicio">
 
         <br>
@@ -94,17 +94,62 @@
     </div>
 
     <div class="sobre" id="sobre">
-        <div class="servidor">
-            <img class="imgServidor" src="assets/servidor.jpg" alt="" srcset="">
+      
+        <div class="textoSobre">
+            <p id="textoSobre">A missão da <cor id="cripto">Bitecrype</cor> é transformar o jeito como as pessoas lidam com o dinheiro, de forma segura e transparente. As transações financeiras na nossa plataforma, está sujeita a políticas rígidas de controle associadas à Lei de Anticorrupção e às Leis de Combate à Lavagem de Dinheiro e Financiamento ao Terrorismo. Investimos em estrutura e segurança da informação para garantir que todas as transações estejam em conformidade com a legislação.</p>
         </div>
+
+        <div class="grafico">
+            <img class="imgGrafico" src="assets/graph.png" alt="" srcset="">
+        </div>
+        
     </div>
 
-    <div class="servicos" id="servicos">
-        
-        <h1 class="tituloH1">Faça um orçamento através do e-email</h1>
-        <br>
+    
 
-        <div class="orcamento">
+    <div class="curso" id="curso">
+
+        <div class="cursoIcone">
+            <img class="cursoImg" src="assets/curso-0.png" alt="">
+            <h3>Curso básico</h3>
+
+            <p>> Acesso a plataforma</p>
+
+            <input class="btnComprar" type="button" value="Comprar">
+            
+        </div>
+
+        <div class="cursoIcone">
+            <img class="cursoImg" src="assets/curso-1.png" alt="">
+            <h3>Curso intermediário</h3>
+
+            <p>> Acesso a plataforma</p>
+            <p>> 24h de suporte</p>
+
+            <input class="btnComprar" type="button" value="Comprar">
+
+        </div>
+
+        <div class="cursoIcone">
+            <img class="cursoImg" src="assets/curso-2.png" alt="">
+            <h3>Curso Completo</h3>
+
+            <p>> Acesso a plataforma</p>
+            <p>> 24h de suporte</p>
+            <p>> + 1 curso da B3</p>
+
+            <input class="btnComprar" type="button" value="Comprar">
+
+        </div>
+
+    </div>
+
+    <div class="contato" id="contato">
+        
+        <h1 class="tituloH1">Entre em contato conosco</h1>
+        <!-- <br> -->
+
+        <div class="dados">
             <p>Nome</p>
             <input placeholder="Gabriel Borges" class="entrada" type="text" name="nome" id=""> <br>
 
@@ -122,9 +167,9 @@
 
         </div>
 
-    </div>
-
-    <div class="curso" id="curso">
+        <!-- <div class="imgContato"> -->
+            <img class="imgContato" src="assets/contact.png" alt="">
+        <!-- </div> -->
 
     </div>
 
@@ -135,7 +180,7 @@
 
     </div>
 
-    <div class="contato" id="contato">
+    <div class="redeSocial" id="redeSocial">
         <div class="linkedin">
             <a href="https://www.linkedin.com/in/gabriel-borges-00066014a/" target="_blank"><img class="imgIcones" src="assets/linkedin.png" alt="linkedin" srcset=""></a>
         </div>
@@ -144,11 +189,13 @@
             <a href="https://github.com/gabrielBorges-code" target="_blank"><img class="imgIcones"  src="assets/github.png" alt="github" srcset=""></a>
         </div>
 
+
     </div>
 
 
 
 </body>
 <script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </html>
